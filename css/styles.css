@@ -43,7 +43,7 @@
 }
 .products-badge-container{
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     display:block;
 }
 .products-badge{ 
@@ -51,15 +51,19 @@
     font-size: 13px;
     color: #fff;
     font-weight: bold;
+    display: inline-block;
 }
 .products-badge01{
-    background-color: #008000;
+    background-color: #ff0000;
 }
 .products-badge02{
-    background-color: #ff0000;
+    background-color: #008000;
 }
 .products-image-container{
     position: relative;
+}
+.products-text {
+    padding: 10px 0;
 }
 .products-text .small{
     font-size: 13px;
@@ -71,7 +75,6 @@
 .products-text .small:last-child del{
     color: #000;
     font-weight: normal;
-
 }
 .text-transform{
     text-align: uppercase;
