@@ -61,8 +61,17 @@
 .products-image-container{
     position: relative;
 }
-.products-text.small{
+.products-text .small{
     font-size: 13px;
+}
+.products-text .small:last-child{
+    color: #ff0000;
+    font-weight: bold;
+}
+.products-text .small:last-child del{
+    color: #000;
+    font-weight: normal;
+
 }
 .text-transform{
     text-align: uppercase;
